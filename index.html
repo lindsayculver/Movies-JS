@@ -7,6 +7,53 @@
     <title>Movie Tickets</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Movie Tickets</h1>
+
+      <div class="row">
+        <div class="user-input">
+          <form id="movie">
+            <div class="form-group">
+              <label for="new-movie">Movie Title</label>
+              <input type="text" class="form-control" id="new-movie">
+            </div>
+
+            <div class="radio">
+              <h5>Select Movie Time</h5>
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                Matinee
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                After 5:00pm
+              </label>
+            </div>
+
+            <div class="form-group">
+              <label for="new-age">Your Age</label>
+              <input type="text" class="form-control" id="new-age">
+            </div>
+
+          <div class="radio">
+            <h5>New Release?</h5>
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+              Yes
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
+              No
+            </label>
+          </div>
+
+              <button type="submit" class="btn btn-info">Go</button>
+          </form>
+
+        </div>
+      </div>
 
   </body>
 </html>
