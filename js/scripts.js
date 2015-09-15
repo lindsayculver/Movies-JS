@@ -33,7 +33,8 @@ $(document).ready(function() {
 
     var newTicket = new Ticket (inputtedMovieName, inputtedMovieTime, inputtedUserAge, inputtedNewRelease);
     var newTicketPrice = newTicket.ticketPrice();
-    $("ul#show-ticket-price").append("<li>" + newTicketPrice + "</li>");
+    $("h2#show-ticket-price").append("<h2>" + "Your Price: " + "$" + newTicketPrice + ".00" + "</h2>");
+
   });
   resetFields();
 });
