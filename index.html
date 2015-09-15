@@ -21,12 +21,12 @@
             <div class="radio">
               <h5>Select Movie Time</h5>
               <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                <input type="radio" name="time-choice" id="optionsRadios1" value="matinee">
                 Matinee
               </label>
               <br>
               <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                <input type="radio" name="time-choice" id="optionsRadios2" value="regular">
                 After 5:00pm
               </label>
             </div>
@@ -39,12 +39,12 @@
           <div class="radio">
             <h5>New Release?</h5>
             <label>
-              <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+              <input type="radio" name="release" id="optionsRadios3" value="new-release">
               Yes
             </label>
             <br>
             <label>
-              <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
+              <input type="radio" name="release" id="optionsRadios4" value="old-release">
               No
             </label>
           </div>
@@ -52,6 +52,9 @@
               <button type="submit" class="btn btn-info">Go</button>
           </form>
 
+          <h2>Your ticket price</h2>
+          <ul id="show-ticket-price">
+          </ul>
         </div>
       </div>
 
